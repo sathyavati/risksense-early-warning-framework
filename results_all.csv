@@ -1,0 +1,11 @@
+domain,approach,PR-AUC,recall,precision,FPR
+Fraud,rules,0.438,0.793,0.328,0.012
+Fraud,ml,0.901,0.87,0.797,0.002
+Fraud,hybrid,0.851,0.916,0.347,0.013
+Fraud,ml: LogReg baseline,0.542,0.937,0.116,0.053
+Fraud,"ml: XGBoost, real features only",0.726,0.775,0.57,0.004
+Student,rules,0.549,0.52,0.565,0.072
+Student,ml,0.522,0.68,0.531,0.109
+Student,hybrid,0.521,0.84,0.512,0.145
+Student,ml (LogReg),0.644,0.92,0.523,0.152
+Student,hybrid (LogReg),0.645,0.92,0.479,0.181
